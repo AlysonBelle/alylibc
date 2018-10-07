@@ -23,7 +23,8 @@ SRC_NAME = strtrim.c \
            ft_strdup.c \
            ft_strstr.c \
            ft_strchr.c \
-           map_file.c
+           map_file.c \
+	   flag_support.c
 
 
 
@@ -35,7 +36,7 @@ SRC = src/*.c
 LIB = lib.a
 
 $(NAME):
-	gcc -Wall -Werror -Wextra -c $(SRC)
+	gcc -Wall -Wextra -c $(SRC)
 	ar rc $(LIB) $(OBJ)
 	mv $(OBJ) obj
 
