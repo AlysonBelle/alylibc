@@ -25,8 +25,8 @@ SRC_NAME = strtrim.c \
            ft_strchr.c \
            map_file.c \
 	   flag_support.c \
-	   error_and_exit.c
-
+	   error_and_exit.c \
+	   fmap_file.c
 
 OBJ = $(SRC_NAME:.c=.o)
 
